@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500%;
+  position: relative;
+  margin: auto;
+}
+
+.body{
+  margin: 0 auto;
+  width: 100%;
+  clear: none;
+}
+
+.Mainheader nav{
+  background-color: black;
+  height: 40px;
+}
+.Mainheader ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+.Mainheader nav ul li{
+  float: left;
+  /*display: inline;*/
+
+}
+.Mainheader li h6{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+.Mainheader li h6 a{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+.Mainheader  li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.Mainheader li a:hover{
+  background-color: #112
+}
+
+.active {
+    background-color: #4CAF50;
+}
+/*.Mainheader nav a:link, .Mainheader nav a:visited{
+  color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}*/
+
+.SndHeader nav{
+  background-color: white ;
+  height: 60px;
+}
+
+.SndHeader ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.SndHeader nav ul li{
+  float: left;
+}
+
+.SndHeader ul li a{
+  display: block;
+  color: #027b84 ;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/*.SndHeader nav a:link, .SndHeader nav a:visited{
+  color: #027b84;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+*/
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body class = body>
+<header class="Mainheader">
+<nav><ul>
+ <!--  &nbsp<br>
+  &nbsp<br> -->
+  <li style="float:left;" ><h6 >10am-4pm: +2349021720570 |</h6></li>
+  <li style="float:left;"><h6><a class="active" href="mailto:info@ehealth4everyone.com">info@ehealth4everyone.com</a></h6></li>
+  <li style="float:right;"><a href="">Contact Us</a></li>
+  <li style="float:right;"><a href="">Careers |</a></li>
+  <li style="float:right;"><a href="">News |</a></li>
+  <li style="float:right;"><a href="">e Health Training |</a></li>
+  <li style="float:right;"><a href="">DHIS2 West Africa |</a></li> 
+  <li style="float:right;"><a href="">About Us |</a></li>
+</ul></nav>
+</header>
+
+<header class="SndHeader">
+  <nav><ul>
+    <li style="float:left;"><a href=""><img src="ehealth_teal_green_70px.png" alt="ehealth_teal_green_70px" width="250" height="50"></a></li>
+    <li style="float:right;"><a href=""> Products&Services </a></li>
+    <li style="float:right;"><a href=""> What We Do </a></li>
+    <li style="float:right;"><a href=""> Resources </a></li>  
+    <li style="float:right;"><a href=""> Who We Are </a></li>
+
+  </ul></nav>
+</header>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="nature1.jpg" style="width:100%">
+  <div class="text"><h1>OUR MISSION</h1><br>
+  <h2>Our mission is better healthcare for everyone through digital technology innovation<br><br><button style="width: 100px ><a href="">Click here</a></button></h2>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="nature2.jpg" style="width:100%"> 
+  <div class="text"><h1>Local Experts</h1><br><h2> Our team is locally available, competent, trustworty and passionate about helping you succeed<br><button style="width: 100px><a href="">Click here</a></button></h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="nature3.jpg" style="width:100%">
+   <div class="text"><h1>DHIS2</h1><br><h2> We build and maintain public health databases using tools like DHIS2,ODK andnew software that we develop<br><button style="width: 100px><a href="">Click here</a></button></h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="nat1.jpg" style="width:100%">
+   <div class="text"><h1>Smartscare</h1><br><h2> We build and maintain electronic hospital systems for paitent records, bookong and quality care solutions<br><button style="width: 100px><a href="">Click here</a></button></h2></div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="nat2.jpg" style="width:100%">
+   <div class="text"><h1>HealthThink</h1><br><h2> We are data experts. We clean, integrate, transform, analyse, and visualize data to provide insights<br><button style="width: 100px><a href="">Click here</a></button></h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="lightning-strikes-statue-of-liberty-perfect-timing.jpg" style="width:100%">
+   <div class="text"><h1>eHealth Consulting</h1><br><h2> We are trusted and experienced advisorsin the domains of eHealth, mHealth<br><button style="width: 100px><a href="">Click here</a></button></h2></div>
+</div>
+
+
+</div>
+<br>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
